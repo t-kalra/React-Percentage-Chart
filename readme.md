@@ -1,8 +1,11 @@
-ReactJS Percentage Chart
+<h1>ReactJS Percentage Chart</h1>
 
-![](main.png | width=794 | height=214)
 
-Steps to run
+<p align="center">
+  <img src="main.png" alt="ReactJS Percentage Chart"  />
+</p>
+
+<b>Steps to run</b>
 1. npm install - to install the node packages
 2. npm run build - to build the bundle.js
 3. npm run start - to start the server 
