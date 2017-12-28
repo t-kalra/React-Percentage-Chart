@@ -1,6 +1,6 @@
 ReactJS Percentage Chart
 
-![alt tag](main.png | width=794 | height=214)
+![](main.png | width=794 | height=214)
 
 Steps to run
 1. npm install - to install the node packages
