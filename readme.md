@@ -1,4 +1,4 @@
-<h1>ReactJS Percentage Chart</h1>
+<h1>React.js Percentage Chart</h1>
 
 
 <p align="center">
