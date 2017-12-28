@@ -1,6 +1,6 @@
 ReactJS Percentage Chart
 
-![alt tag](React-Percentage-Chart/main.png)
+![alt tag](main.png)
 
 Steps to run
 1. npm install - to install the node packages
