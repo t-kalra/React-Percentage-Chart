@@ -12,5 +12,5 @@
 
 ### Contributors:
 
-<i>Tarun Kalra</i>
+<i>Tarun Kalra</i>,\n
 <i>Avi Kathuria</i>
