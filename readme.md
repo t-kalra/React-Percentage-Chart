@@ -1,14 +1,16 @@
-<h1>React.js Percentage Chart</h1>
-
+# React.js Percentage Chart/Bar
 
 <p align="center">
-  <img src="main.png" alt="ReactJS Percentage Chart"  />
+  <img src="./assets/main.png" alt="ReactJS Percentage Bar"  />
 </p>
 
-<b>Steps to run</b>
+## Steps to run
+
 1. npm install - to install the node packages
 2. npm run build - to build the bundle.js
-3. npm run start - to start the server 
+3. npm run start - to start the server
 
-To access the app
-http://localhost:8080/chart/
+### Contributors:
+
+<i>Tarun Kalra</i>
+<i>Avi Kathuria</i>

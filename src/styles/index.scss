@@ -9,49 +9,49 @@ body {
   background-color: #eee;
   font-family: arial;
   font-size: 12px;
-  .container{
+  .container {
     width: 800px;
     margin: 0px auto;
-    .chart{  
+    .chart {
       display: inline-block;
       width: 100%;
-      .item-wrapper{
+      .item-wrapper {
         @extend .chart;
-        .chartInfo{
+        .chartInfo {
           @extend .chart;
           margin-bottom: 20px;
         }
-        .chartBox{
-          display: inline-block; 
+        .chartBox {
+          display: inline-block;
           height: 60px;
-          span{
-            font-weight:bold;
+          span {
+            font-weight: bold;
             font-size: 12px;
             padding: 10px;
             box-sizing: border-box;
-            background-color: rgba(255,255,255,0.5);
+            background-color: rgba(255, 255, 255, 0.5);
             display: inline-block;
-            margin: 12px 0px 0px 12px; 
+            margin: 12px 0px 0px 12px;
           }
         }
         @for $i from 0 through $repeat {
           $colorNode: nth($colors, random(length($colors)));
-          $opac: nth($lighten,random(length($lighten)));
+          $opac: nth($lighten, random(length($lighten)));
           .boxStyle--#{$i} {
-              background-color: lighten($colorNode, $opac);
+            background-color: lighten($colorNode, $opac);
           }
         }
       }
     }
-    .chartForm{
+    .chartForm {
       margin: 20px 0px;
     }
   }
-  .error{
+  .error {
     @extend .chart;
     background-color: red;
     color: #fff;
     padding: 10px;
-    margin-top: 10px
+    margin-top: 10px;
   }
 }
